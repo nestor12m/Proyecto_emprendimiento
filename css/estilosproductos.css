@@ -1,0 +1,62 @@
+
+
+:root{
+    --colorheader:#3ac735;
+    --hospital-green: #44d658;
+    --hover_botones:rgb(0, 255, 136);
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: beige;
+}
+
+.contenedor-seccion2-h2{
+    font-size: 35px;
+    width: 50%;
+   border-bottom: 5px solid rgb(25, 235, 6);
+   padding-top: 30px;
+   margin: 0 auto;
+   text-align: center;
+
+}
+
+table{
+    border:1px solid black;
+    margin :0 auto;
+    margin-top: 40px;
+}
+
+table th{
+    border: 1px solid red;
+    width: 250px;
+    height: 40px;
+    background-color: aqua;
+}
+
+table td{
+    border: 1px solid rgb(0, 26, 255);
+    width: 250px;
+    height: 40px;
+    text-align: center;
+}
+
+button{
+    margin-top: 30px;
+    padding: 10px 15px;
+    position: relative;
+    left: 600px;
+    background-color: var(--hospital-green);
+    font-size: 20px;
+    
+}
+
+button:hover{
+ background-color: var(--hover_botones);
+}

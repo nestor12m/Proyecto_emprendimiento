@@ -1,0 +1,67 @@
+
+
+:root{
+    --colorheader:#3ac735;
+    --hospital-green: #44d658;
+    --hover_botones:rgb(0, 255, 136);
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: beige;
+}
+
+.contenedor-seccion2-h2{
+    font-size: 35px;
+    width: 50%;
+   border-bottom: 5px solid rgb(25, 235, 6);
+   padding-top: 30px;
+   margin: 0 auto;
+   text-align: center;
+
+}
+
+
+
+.cont-galeria{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cont-galeria img{
+   width: 350px;
+   height: 300px;
+   margin-top: 19px;
+   margin-left: 18px;
+}
+h2{
+   text-align: center;
+   margin: 30px auto;
+   
+}
+
+.div-imgs P{
+   text-align: center;
+   margin-top: 10px;
+   font-weight: bold;
+}
+.div-imgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    margin-top: 5px;
+    padding: 4px 12px;
+    background-color: var(--hospital-green);
+}
